@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Catalog</name>
+    <Style id="earthquake">
+      <IconStyle>
+        <scale>0.5</scale>
+        <Icon>
+          <href>https://maps.google.com/mapfiles/kml/shapes/earthquake.png</href>
+        </Icon>
+        <hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+      </IconStyle>
+      <LabelStyle>
+        <color>ff0000ff</color>
+        <scale>0.8</scale>
+      </LabelStyle>
+    </Style>
+    <Folder>
+      <name>Catalog</name>
+      <open>1</open>
+      <description>2 Event(s) in Catalog:
+2012-03-25T22:37:06.000000Z | -35.200,  -72.217 | 7.1  mww | manual
+2012-03-03T22:12:55.000000Z | -35.749,  -72.800 | 5.0  mwr | manual</description>
+      <Style>
+        <ListStyle>
+          <listItemType>check</listItemType>
+          <bgColor>00ffffff</bgColor>
+          <maxSnippetLines>5</maxSnippetLines>
+        </ListStyle>
+      </Style>
+      <Placemark>
+        <name>2012-03-25 7.1</name>
+        <styleUrl>#earthquake</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>2.58211</scale>
+          </IconStyle>
+          <ListStyle>
+            <maxSnippetLines>5</maxSnippetLines>
+          </ListStyle>
+        </Style>
+        <Point>
+          <coordinates>-72.217000,-35.200000,0</coordinates>
+        </Point>
+        <description>Event:	2012-03-25T22:37:06.000000Z | -35.200,  -72.217 | 7.1  mww | manual
+
+	            resource_id: ResourceIdentifier(id="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000jgsw&amp;format=quakeml")
+	             event_type: 'earthquake'
+	          creation_info: CreationInfo(agency_id='us', creation_time=UTCDateTime(2025, 9, 13, 20, 1, 16, 636000))
+	    preferred_origin_id: ResourceIdentifier(id="quakeml:earthquake.usgs.gov/product/origin/usp000jgsw/us/1415324839166")
+	 preferred_magnitude_id: ResourceIdentifier(id="quakeml:earthquake.usgs.gov/product/origin/usp000jgsw/us/1415324839166#magnitude")
+	                   ---------
+	     event_descriptions: 1 Elements
+	                origins: 1 Elements
+	             magnitudes: 1 Elements</description>
+        <TimeStamp>2012-03-25T22:37:06.000000Z</TimeStamp>
+      </Placemark>
+      <Placemark>
+        <name>2012-03-03 5.0</name>
+        <styleUrl>#earthquake</styleUrl>
+        <Style>
+          <IconStyle>
+            <scale>2.24616</scale>
+          </IconStyle>
+          <ListStyle>
+            <maxSnippetLines>5</maxSnippetLines>
+          </ListStyle>
+        </Style>
+        <Point>
+          <coordinates>-72.800000,-35.749000,0</coordinates>
+        </Point>
+        <description>Event:	2012-03-03T22:12:55.000000Z | -35.749,  -72.800 | 5.0  mwr | manual
+
+	            resource_id: ResourceIdentifier(id="quakeml:earthquake.usgs.gov/fdsnws/event/1/query?eventid=usp000jfrf&amp;format=quakeml")
+	             event_type: 'earthquake'
+	          creation_info: CreationInfo(agency_id='us', creation_time=UTCDateTime(2022, 5, 3, 15, 32, 33, 915000))
+	    preferred_origin_id: ResourceIdentifier(id="quakeml:earthquake.usgs.gov/product/origin/usp000jfrf/us/1415324830481")
+	 preferred_magnitude_id: ResourceIdentifier(id="quakeml:earthquake.usgs.gov/product/origin/usp000jfrf/us/1415324830481#magnitude")
+	                   ---------
+	     event_descriptions: 1 Elements
+	                origins: 1 Elements
+	             magnitudes: 1 Elements</description>
+        <TimeStamp>2012-03-03T22:12:55.000000Z</TimeStamp>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>
