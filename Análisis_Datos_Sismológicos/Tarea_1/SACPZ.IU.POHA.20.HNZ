@@ -1,0 +1,35 @@
+* **************************************************
+* NETWORK     : IU
+* STATION     : POHA
+* LOCATION    : 20
+* CHANNEL     : HNZ
+* CREATED     : 2026-11-23T15:13:29.342350Z
+* START       : 2014-12-12T00:00:00.000000Z
+* END         : 2018-10-25T00:00:00.000000Z
+* DESCRIPTION : Pohakuloa, Hawaii, USA
+* LATITUDE    : 19.7573
+* LONGITUDE   : -155.5326
+* ELEVATION   : 1990.0
+* DEPTH       : 0.0
+* DIP (SEED)  : -90.0
+* AZIMUTH     : 0.0
+* SAMPLE RATE : 100.0
+* INPUT UNIT  : M
+* OUTPUT UNIT : counts
+* INSTTYPE    : KINEMETRICS
+* INSTGAIN    : 1.0197 (m/s**2)
+* SENSITIVITY : 427979.0 (m/s**2)
+* A0          : 24595700000000.0
+* **************************************************
+ZEROS 2
+ +0.000000e+00 +0.000000e+00
+ +0.000000e+00 +0.000000e+00
+POLES 4
+ -9.810000e+02 -1.009000e+03
+ -9.810000e+02 +1.009000e+03
+ -3.290000e+03 -1.263000e+03
+ -3.290000e+03 +1.263000e+03
+CONSTANT 1.052644e+19
+
+
+
